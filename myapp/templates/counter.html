@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>First View</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <button style='background-color:greenyellow' onclick='countClicks()'>Click me!</button>
+    <br><br>
+    <button>Don't click me</button>
+    <br><br>
+    <select></select>
+    <label for='counter'>Counter</label>
+    <input id='counter' disabled='true'></input>
+    <h3>Happy Learning :)</h3>
+    <div style="text-align: left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Example.png"
+            alt="Png example"
+            width='100px'
+            style="color: transparent; object-fit: contain; height=100%, margin: 10px auto;"/>
+    </div>
+</body>
+<script>
+    var c = document.getElementById('counter');
+    var counter = 0;
+    var countClicks = () => {
+        //alert(`Hello html world! Clicked ${++counter} times.`);
+        if (++counter > 10) alert(`Przestan klikać!`);
+        else c.value = counter;
+    }
+</script>
+</html>
