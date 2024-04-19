@@ -35,3 +35,5 @@ My first python django application
 
 2024-03-15
 part 3 - do 'Użyj systemu szablonów' polls/detail.html:
+2024-04-05 - part 4
+2024-04-19 - part 5 - testy - in progress - to check!
